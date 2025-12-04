@@ -1,9 +1,12 @@
 long part1 = 0;
 long part2 = 0;
-File.ReadAllLines(args.Length > 0 ? args[0] : "input.txt").ToList().ForEach(line => {
+File.ReadAllLines(args.Length > 0 ? args[0] : "input.txt").ToList().ForEach(line =>
+{
     line.Split(',').ToList().ForEach(range => {
         var parts = range.Split('-');
-        for (long i = long.Parse(parts[0]); i <= long.Parse(parts[1]); i++)
+        long start = long.Parse(parts[0]);
+        long end = long.Parse(parts[1]);
+        for (long i = start; i <= end; i++)
         {
             string id = i.ToString();
 

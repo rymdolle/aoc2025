@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "rymdolle",
+    "classifications": [ "Advent of Code", "C#" ],
+    "identity": "AdventOfCode.Template",
+    "name": "Advent of Code",
+    "tags": {
+	"language": "C#",
+	"type": "project"
+    },
+    "sourceName": "DayTemplate",
+    "preferNameDirectory": true,
+    "shortName": "aoc"
+}
